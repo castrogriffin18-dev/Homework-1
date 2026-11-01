@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Home | Tyler Griffin</title>
 </head>
 
 <body>
     <header>
-        <h1>Home</h1>
-        <p>Tyler Griffin: a web student.</p>
+        <h1 id="page-title">Home</h1>
+        <p class="tagline">Tyler Griffin: a web student.</p>
     </header>
-    <nav>
+    <nav class="site-nav">
 <a href="index.html">Home</a>
 <a href="project.html">Work</a>
 <a href="about.html">About</a>
 </nav>
- <main>
-        <section>
+ <main id="page-content">
+        <section class="content-card">
             <h2>Welcome</h2>
             <p>I enjoy building webpages.</p>
-            <img src="batman.jpg" alt="A cool picture of Batman.">
+            <img class="featured-image" src="batman.jpg" alt="A cool picture of Batman.">
         </section>
-        <section>
+        <section class="content-card">
             <h2>Featured Work</h2>
             <h3>First Web Page</h3>
             <ul>
@@ -29,7 +31,7 @@
                 <li>My interests are playing video games,playing card games, mixing music for fun,and write poetry.</li>
             </ul>
         </section>
-        <section>
+        <section class="content-card">
             <h2>My Pages and Files</h2>
             <ul>
                 <li><a href="about.html">About me</a></li>
